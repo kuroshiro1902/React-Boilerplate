@@ -1,0 +1,12 @@
+.Header {
+	display: flex;
+  align-items: center;
+  .menu {
+    flex: 1;
+    align-items: center;
+    min-width: 0;
+    li[role='menuitem'] {
+      height: 100%;
+    }
+  }
+}
